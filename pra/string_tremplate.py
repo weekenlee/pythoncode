@@ -1,6 +1,6 @@
 import string
 
-value = {'var':'foo'}
+value = {'var': 'foo'}
 
 t = string.Template("""
         Variable            :$var
@@ -21,5 +21,5 @@ s2 = """
     """
 
 print('Template:', t.substitute(value))
-print('INTERPOLATION:', s%value)
+print('INTERPOLATION:', s % value)
 print('FORMAT:', s2.format(**value))
