@@ -4,8 +4,8 @@ import sys
 import matplotlib.pyplot as plt
 from random import randint
 
-WIDTH  = 60
-HEIGHT = 40
+WIDTH  = 30
+HEIGHT = 20
 sys.setrecursionlimit(WIDTH * HEIGHT)
 
 def initVisitedList():
