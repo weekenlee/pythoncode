@@ -17,3 +17,13 @@ for letter in 'abcde':
     print('{}: {}'.format(letter, c[letter]))
 
 print(list(c.elements()))
+
+c1 = collections.Counter(['a', 'b', 'c', 'a', 'b', 'b'])
+c2 = collections.Counter('alphabert')
+print("math.....")
+print(c1)
+print(c2)
+print(c1+c2)
+print(c1-c2)
+print(c1 & c2)
+print(c1 | c2)
