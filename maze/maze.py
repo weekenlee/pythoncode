@@ -2,6 +2,7 @@
 
 import sys
 import matplotlib.pyplot as plt
+import matplotlib.image as mpimg # mpimg 用于读取图片
 from random import randint
 
 WIDTH  = 30
@@ -93,5 +94,8 @@ edgeList.remove((0, 0, 0, 1))
 edgeList.remove((WIDTH, HEIGHT-1, WIDTH, HEIGHT))
 for edge in edgeList:
 	drawLine(edge[0], edge[1], edge[2], edge[3])
+#xiaobu = mpimg.imread('xiaobu.png')
+#xiaobu.shape
+#plt.imshow(xiaobu)
 plt.show()
 
